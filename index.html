@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li id="logo"><img src="logo.png" alt="Spotify"><span>Spotify</span></li>
+            <li>HOME</li>
+            <li>ABOUT</li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="songlist">
+            <h1>List of my favourite songs.</h1>
+            <div class="songcontainer">
+                <img src="covers/1.jpg" alt="1">
+                <span class="songName">Smells Like Teen Spirit</span>
+                <span class="songlist">
+                <span class="timestamp">04:00
+                        <i id="0" class="songplay fas fa-regular fa-circle-play"></i>
+                    </span>
+                </span>
+            </div>
+            <div class="songcontainer">
+                <img src="covers/2.jpg" alt="1">
+                <span class="songName">Take Me Home, Country Roads</span>
+                <span class="songlist">
+                <span class="timestamp">04:00
+                        <i id="1" class="songplay fas fa-regular fa-circle-play"></i>
+                    </span>
+                </span>
+            </div>
+            <div class="songcontainer">
+                <img src="covers/3.jpg" alt="1">
+                <span class="songName">Stayin Alive</span>
+                <span class="songlist">
+                <span class="timestamp">04:00
+                        <i id="2" class="songplay fas fa-regular fa-circle-play"></i>
+                    </span>
+                </span>
+            </div>
+            <div class="songcontainer">
+                <img src="covers/4.jpg" alt="1">
+                <span class="songName">Different Heaven & EH!DE - My Heart</span>
+                <span class="songlist">
+                <span class="timestamp">04:00
+                        <i id="3" class="songplay fas fa-regular fa-circle-play"></i>
+                    </span>
+                </span>
+            </div>
+            <div class="songcontainer">
+                <img src="covers/5.jpg" alt="1">
+                <span class="songName">Somebody That I Used To Know</span>
+                <span class="songlist">
+                <span class="timestamp">04:00
+                        <i id="4" class="songplay fas fa-regular fa-circle-play"></i>
+                    </span>
+                </span>
+            </div>
+            <div class="songcontainer">
+                <img src="covers/6.jpg" alt="1">
+                <span class="songName">Sweet Child O’Mine</span>
+                <span class="songlist">
+                <span class="timestamp">04:00
+                        <i id="5" class="songplay fas fa-regular fa-circle-play"></i>
+                    </span>
+                </span>
+            </div>
+            <div class="songcontainer">
+                <img src="covers/7.jpg" alt="1">
+                <span class="songName">Shake Your Groove Thing</span>
+                <span class="songlist">
+                <span class="timestamp">04:00
+                        <i id="6" class="songplay fas fa-regular fa-circle-play"></i>
+                    </span>
+                </span>
+            </div>
+            <div class="songcontainer">
+                <img src="covers/8.jpg" alt="1">
+                <span class="songName">Can’t Help Falling In Love-Elvis Presley</span>
+                <span class="songlist">
+                <span class="timestamp">04:00
+                        <i id="7" class="songplay fas fa-regular fa-circle-play"></i>
+                    </span>
+                </span>
+            </div>
+            <div class="songcontainer">
+                <img src="covers/9.jpg" alt="1">
+                <span class="songName">Come As You Are</span>
+                <span class="songlist">
+                <span class="timestamp">04:00
+                        <i id="8" class="songplay fas fa-regular fa-circle-play"></i>
+                    </span>
+                </span>
+            </div>
+            <div class="songcontainer">
+                <img src="covers/10.jpg" alt="1">
+                <span class="songName">Welcome To The Jungle</span>
+                <span  class="songlist">
+                <span class="timestamp">04:00
+                        <i id="9" class="songplay fas fa-regular fa-circle-play"></i>
+                    </span>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <input type="range"  id="player" value="0" min="0" max="100" >
+        <!-- fontawsome icon -->
+        <div class="icons">
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="fas fa-3x fa-regular fa-circle-play" id="play"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div>
+            <img src="playing.gif" id="gif" alt="gif">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/b6b57d0414.js" crossorigin="anonymous"></script>
+</body>
+</html>
