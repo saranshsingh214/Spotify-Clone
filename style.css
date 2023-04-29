@@ -84,7 +84,7 @@ body{
 .bottom{
     position: sticky;
     /* width: 100vw; */
-    bottom: 0;
+    bottom: -1;
     /* height: 120px; */
     padding: 20px 0px;
     background-color: rgb(28, 28, 28);
